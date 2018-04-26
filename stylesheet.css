@@ -1,0 +1,29 @@
+html,body {
+	background: #FF4D4D;
+}
+
+h2 {
+	font-family: PlayfairDisplay-BoldItalic;
+	font-size: 1.3125em;
+	color: #FFFFFF;
+	letter-spacing: -0.031875em;
+}
+p {
+	font-family: OpenSans;
+	font-size: 0.875em;
+	color: #FFFFFF;
+	letter-spacing: -0.02125em;
+	line-height: 1.375em;
+}
+
+header{
+	font-family: PlayfairDisplay;
+	font-weight: 900;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.header-img {
+	mix-blend-mode: multiply; 
+}
