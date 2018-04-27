@@ -1,5 +1,7 @@
 html,body {
 	background: #FF4D4D;
+	width: 1200px;
+	margin: auto;
 }
 
 h2 {
@@ -16,7 +18,13 @@ p {
 	line-height: 1.375em;
 }
 
-header{
+.header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 4em;
+}
+
+.logo {
 	font-family: PlayfairDisplay;
 	font-weight: 900;
 	font-size: 1.5em;
@@ -24,6 +32,48 @@ header{
 	text-transform: uppercase;
 }
 
-.header-img {
-	mix-blend-mode: multiply; 
+.social-icons {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	/*background-color: yellow;*/
+}
+
+.social-icons svg {
+	flex-wrap: wrap;
+	margin-left: 1.5em;
+}
+
+svg path:hover {
+	fill: #fff;
+}
+
+.description {
+	display: flex;
+	flex-direction: row;
+	margin-left: 180px;
+}
+
+.description__block {
+	width: 408px;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gallery__img {
+	background-color: yellow;
+	width: 384px;
+	height: 288px;
+	margin-bottom: 8px;
+	margin-right: 8px;
+	border: 1px solid #FFFFFF;
+}
+
+.gallery__img:hover{
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 32px 56px 0 rgba(0,0,0,0.30);
 }
